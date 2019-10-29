@@ -1,0 +1,14 @@
+/* .navbar {
+  padding: 2.5%;
+} */
+
+.navbar-brand {
+  letter-spacing: 0.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.nav-item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
