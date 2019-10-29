@@ -13,8 +13,9 @@
 
 .boxes {
   /* flex: 1; */
-  flex-basis: 32%;
   -webkit-filter: brightness(100%);
+  flex-basis: 32%;
+  height: 240px;
 }
 
 .boxes:hover {
@@ -24,6 +25,10 @@
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
+}
+
+.mainPic {
+  border-radius: 50%;
 }
 
 /* .box-2 {

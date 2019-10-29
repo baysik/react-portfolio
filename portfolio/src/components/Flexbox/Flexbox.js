@@ -6,7 +6,7 @@ export default function Flexbox() {
     <div className="container">
       <div className="container-flex">
         <div className="boxes">
-          <h3>Box one</h3>
+          <h3>Alphabet Game</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.

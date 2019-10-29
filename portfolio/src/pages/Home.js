@@ -5,8 +5,7 @@ import Wrapper from "../components/Wrapper/Wrapper";
 
 export default class Home extends Component {
   render() {
-    let mainPic =
-      "<img src=https://i.imgur.com/H09wubk.png alt='Smiley face' height='100' width='100'></img>";
+    let mainPic = `<img className='main-picture' src=${require("../image/portrait.jpg")} alt='Smiley face' height='100' width='100'></img>`;
     return (
       <div>
         <Navbar />
