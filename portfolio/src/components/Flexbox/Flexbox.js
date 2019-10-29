@@ -13,14 +13,14 @@ export default function Flexbox() {
           </p>
         </div>
         <div className="boxes">
-          <h3>Box two</h3>
+          <h3>Crystal Collector</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
         <div className="boxes">
-          <h3>Box three</h3>
+          <h3>Giftastic</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -29,14 +29,14 @@ export default function Flexbox() {
       </div>
       <div className="container-flex">
         <div className="boxes">
-          <h3>Box one</h3>
+          <h3>Train Scheduler</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
         <div className="boxes">
-          <h3>Box two</h3>
+          <h3>Trivia Game</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.

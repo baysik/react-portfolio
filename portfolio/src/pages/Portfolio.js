@@ -8,7 +8,11 @@ export default class Portfolio extends Component {
     return (
       <div>
         <Navbar />
-        <Jumbotron />
+        <Jumbotron
+          h1={"Gene Bay"}
+          firstP={"Web dev."}
+          secondP={"HTML - CSS - Javascript"}
+        />
         <Flexbox />
       </div>
     );

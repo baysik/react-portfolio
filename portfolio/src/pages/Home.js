@@ -10,15 +10,23 @@ export default class Home extends Component {
       <div>
         <Navbar />
         {/* <Jumbotron src={"https://i.imgur.com/H09wubk.png"} /> */}
-        <Jumbotron myProp={mainPic} />
+        <Jumbotron
+          myProp={mainPic}
+          h1={"Gene Bay"}
+          firstP={"Web dev."}
+          secondP={"HTML - CSS - Javascript"}
+        />
         <Wrapper>
           <h2 className="aboutme">About me</h2>
           <p>
-            Graduated from University of Utah coding bootcamp on October 26,
-            2019. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            Graduated from University of Utah coding bootcamp - October 26,
+            2019.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
