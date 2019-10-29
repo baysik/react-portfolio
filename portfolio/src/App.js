@@ -1,14 +1,24 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Jumbotron from "./components/Jumbotron/Jumbotron";
-import Wrapper from "./components/Wrapper/Wrapper";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+// import Jumbotron from "./components/Jumbotron/Jumbotron";
+// import Navbar from "./components/Navbar/Navbar";
+// import Jumbotron from "./components/Jumbotron/Jumbotron";
+// import Wrapper from "./components/Wrapper/Wrapper";
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/portfolio" component={Portfolio} />
+          </Switch>
+        </Router>
+        {/* <Navbar />
         <Jumbotron />
         <Wrapper>
           <h2 className="aboutme">About me</h2>
@@ -21,7 +31,7 @@ export default class App extends Component {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-        </Wrapper>
+        </Wrapper> */}
       </div>
     );
   }

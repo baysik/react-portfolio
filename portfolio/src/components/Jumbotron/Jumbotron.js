@@ -1,25 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 
-export default class Jumbotron extends Component {
-  render() {
-    return (
-      <div>
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <img
-              src="https://i.imgur.com/H09wubk.png"
-              alt="Smiley face"
-              height="100"
-              width="100"
-            ></img>
-            <h1 class="jumboname">Gene Bay</h1>
-            <p class="lead">Web dev.</p>
-            <p class="lead">University of Utah Coding Bootcamp</p>
-            <p class="lead">graduate 10/26/2019</p>
-          </div>
+export default function Jumbotron(props) {
+  console.log(props.src);
+  return (
+    <div>
+      <div className="jumbotron jumbotron-fluid">
+        <div className="container">
+          <img src={props.src} alt="Smiley face" height="100" width="100"></img>
+          <h1 className="jumboname">Gene Bay</h1>
+          <p className="lead">Web dev.</p>
+          <p className="lead">University of Utah Coding Bootcamp</p>
+          <p className="lead">graduate 10/26/2019</p>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
