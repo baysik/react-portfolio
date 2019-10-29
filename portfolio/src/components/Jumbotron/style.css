@@ -1,9 +1,14 @@
 .jumboname {
   font-family: "Red Hat Display", sans-serif;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: lighter;
   letter-spacing: 0.3rem;
 }
 img {
   border-radius: 50%;
 }
+
+/* .jumbotron {
+  background-image: url("https://i.imgur.com/bGKkg2k.png");
+  background-size: cover;
+} */
