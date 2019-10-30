@@ -15,6 +15,7 @@ export default class Home extends Component {
           h1={"Gene Bay"}
           firstP={"Web dev."}
           secondP={"HTML - CSS - Javascript"}
+          button={"My Work"}
         />
         <Wrapper>
           <h2 className="aboutme">About me</h2>
