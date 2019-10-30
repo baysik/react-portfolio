@@ -1,3 +1,6 @@
+.jumbotron {
+  opacity: 1;
+}
 .jumboname {
   font-family: "Red Hat Display", sans-serif;
   font-size: 50px;
@@ -12,4 +15,8 @@
 
 img {
   border-radius: 50%;
+}
+
+a {
+  color: inherit;
 }
