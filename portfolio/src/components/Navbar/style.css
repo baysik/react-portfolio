@@ -1,5 +1,5 @@
 /* .navbar {
-  padding: 2.5%;
+  opacity: 0;
 } */
 
 .navbar-brand {
@@ -9,6 +9,7 @@
 }
 
 .nav-item {
+  opacity: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
 }

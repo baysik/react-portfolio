@@ -1,4 +1,4 @@
-import React, { Component, useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import { TweenMax, Power3 } from "gsap";
 import "./style.css";
 
@@ -9,8 +9,8 @@ export default function Navbar() {
   useEffect(() => {
     console.log(navSlide);
     TweenMax.from([navSlide, navSlide2, navSlide3], 2, {
-      opacity: 1,
-      x: 200,
+      opacity: 0,
+      x: 50,
       ease: Power3.easeOut,
       delay: 0.2
     });

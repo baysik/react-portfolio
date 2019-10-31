@@ -5,27 +5,31 @@
     margin-top: 2%;
   }
 }
-
-.container-flex div {
-  border: 1px #ccc solid;
-  padding: 10px;
+#portfolio-container {
+  visibility: hidden;
 }
-
+/* .container-flex div {
+  border: 1px #ccc solid;
+  padding: 4px;
+} */
+.portfolio-image {
+  border-radius: 1%;
+  opacity: 0.75;
+}
 .boxes {
-  /* flex: 1; */
   -webkit-filter: brightness(100%);
   flex-basis: 32%;
   height: 240px;
 }
 
-.boxes:hover {
+/* .boxes:hover {
   -webkit-filter: brightness(70%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
-}
+} */
 
 .mainPic {
   border-radius: 50%;

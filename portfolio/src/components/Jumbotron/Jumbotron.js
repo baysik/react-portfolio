@@ -1,19 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import "./style.css";
 import { TweenMax, Power3 } from "gsap";
 
 export default function Jumbotron(props) {
-  //   let jumboAnimation = useRef(null);
-
-  //   useEffect(() => {
-  //     console.log(jumboAnimation);
-  //     TweenMax.from(jumboAnimation, 2, {
-  //       opacity: 1,
-  //       y: 50,
-  //       ease: Power3.easeOut
-  //     });
-  //   }, []);
-
   return (
     <div>
       <div className="jumbotron jumbotron-fluid">
