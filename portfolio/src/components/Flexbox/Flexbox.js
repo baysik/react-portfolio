@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { TweenMax, Power3 } from "gsap";
 import "./style.css";
 import placeholder from "../../image/placeholder.jpg";
+import burger from "../../image/eattheburger.png";
 
 export default function Flexbox() {
   let app1 = useRef(null);
@@ -127,13 +128,15 @@ export default function Flexbox() {
       <div className="container-flex">
         <div className="boxes">
           {/* w: 355 - h: 240 */}
-          <img
-            className="portfolio-image"
-            src={placeholder}
-            ref={el => (image1 = el)}
-            onMouseEnter={handleExpand1}
-            onMouseLeave={handleShrink1}
-          ></img>
+          <a href="https://eat-da-burger-baysik.herokuapp.com/" target="_blank">
+            <img
+              className="portfolio-image"
+              src={burger}
+              ref={el => (image1 = el)}
+              onMouseEnter={handleExpand1}
+              onMouseLeave={handleShrink1}
+            ></img>
+          </a>
           {/* <h3>Alphabet Game</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
