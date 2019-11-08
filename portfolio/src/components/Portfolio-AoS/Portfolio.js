@@ -1,17 +1,20 @@
 import React from "react";
 import burger from "../../image/eattheburger.png";
 import alphabet from "../../image/alphabet.png";
+import friendfinder from "../../image/friendfinder.png";
+import crystalcollector from "../../image/crystal collector.png";
 import "./style.css";
 
 export default function Portfolio() {
   return (
     <div>
       <main class="container-aos">
+        {/* card one */}
         <section class="card">
           <img
             src={alphabet}
             className="portfolio-image"
-            alt="alphabet game image"
+            alt="alphabet game"
           ></img>
           <div>
             <h3>Alphabet Game</h3>
@@ -22,16 +25,28 @@ export default function Portfolio() {
               target="_blank"
               class="view-button"
             >
-              View
+              Live
+            </a>
+            <a
+              href="https://github.com/kyleruff1/WDJSChildrensBook"
+              target="_blank"
+              class="view-button"
+            >
+              Github
             </a>
           </div>
         </section>
+        {/* card two */}
         <section class="card" data-aos="fade-left">
-          <img src={burger} className="portfolio-image" alt="burger"></img>
+          <img
+            src={burger}
+            className="portfolio-image"
+            alt="eat da burger"
+          ></img>
           <div>
             <h3>Eat da burger!</h3>
             <p>
-              a simple app created using MySQL as the backend server, deployed
+              A simple app created using MySQL as the backend server, deployed
               on Heroku using JawsDB.
             </p>
             <a
@@ -40,61 +55,65 @@ export default function Portfolio() {
             >
               View
             </a>
-          </div>
-        </section>
-        <section class="card" data-aos="fade-right">
-          <img src={burger} className="portfolio-image" alt="burger"></img>
-          <div>
-            <h3>Project 3</h3>
-            <p>
-              Mollit fugiat ex nisi nostrud tempor qui consequat anim nulla
-              labore nisi qui qui. Mollit fugiat ex nisi nostrud tempor qui
-              consequat anim nulla labore nisi qui qui.
-            </p>
-            <a href="#" class="view-button">
-              View
+            <a
+              href="https://github.com/baysik/eat-da-burger"
+              target="_blank"
+              class="view-button"
+            >
+              Github
             </a>
           </div>
         </section>
+        {/* card 3 */}
         <section class="card" data-aos="fade-left">
-          <img src={burger} className="portfolio-image" alt="burger"></img>
+          <img
+            src={friendfinder}
+            className="portfolio-image"
+            alt="friend finder"
+          ></img>
           <div>
-            <h3>Project 4</h3>
+            <h3>Friend Finder</h3>
             <p>
-              Mollit fugiat ex nisi nostrud tempor qui consequat anim nulla
-              labore nisi qui qui. Mollit fugiat ex nisi nostrud tempor qui
-              consequat anim nulla labore nisi qui qui.
+              A survey created using Node.js and Express to find you the best
+              match based on your results.
             </p>
-            <a href="#" class="view-button">
+            <a
+              href="https://friendfinder-baysik-v2.herokuapp.com/"
+              class="view-button"
+            >
               View
+            </a>
+            <a
+              href="https://github.com/baysik/FriendFinder"
+              target="_blank"
+              class="view-button"
+            >
+              Github
             </a>
           </div>
         </section>
-        <section class="card" data-aos="fade-right">
-          <img src={burger} className="portfolio-image" alt="burger"></img>
-          <div>
-            <h3>Project 5</h3>
-            <p>
-              Mollit fugiat ex nisi nostrud tempor qui consequat anim nulla
-              labore nisi qui qui. Mollit fugiat ex nisi nostrud tempor qui
-              consequat anim nulla labore nisi qui qui.
-            </p>
-            <a href="#" class="view-button">
-              View
-            </a>
-          </div>
-        </section>
+        {/* card four */}
         <section class="card" data-aos="fade-left">
-          <img src={burger} className="portfolio-image" alt="burger"></img>
+          <img
+            src={crystalcollector}
+            className="portfolio-image"
+            alt="crystal collector"
+          ></img>
           <div>
-            <h3>Project 6</h3>
+            <h3>Crystal Collector</h3>
             <p>
-              Mollit fugiat ex nisi nostrud tempor qui consequat anim nulla
-              labore nisi qui qui. Mollit fugiat ex nisi nostrud tempor qui
-              consequat anim nulla labore nisi qui qui.
+              a simple app created using MySQL as the backend server, deployed
+              on Heroku using JawsDB.
             </p>
-            <a href="#" class="view-button">
+            <a href="https://baysik.github.io/unit-4-game/" class="view-button">
               View
+            </a>
+            <a
+              href="https://github.com/baysik/unit-4-game"
+              target="_blank"
+              class="view-button"
+            >
+              Github
             </a>
           </div>
         </section>
