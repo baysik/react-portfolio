@@ -23,6 +23,7 @@ export default function Portfolio() {
             <a
               href="https://kyleruff1.github.io/WDJSChildrensBook/"
               target="_blank"
+              rel="noopener noreferrer"
               class="view-button"
             >
               Live
@@ -30,6 +31,7 @@ export default function Portfolio() {
             <a
               href="https://github.com/kyleruff1/WDJSChildrensBook"
               target="_blank"
+              rel="noopener noreferrer"
               class="view-button"
             >
               Github
@@ -58,6 +60,7 @@ export default function Portfolio() {
             <a
               href="https://github.com/baysik/eat-da-burger"
               target="_blank"
+              rel="noopener noreferrer"
               class="view-button"
             >
               Github
@@ -86,6 +89,7 @@ export default function Portfolio() {
             <a
               href="https://github.com/baysik/FriendFinder"
               target="_blank"
+              rel="noopener noreferrer"
               class="view-button"
             >
               Github
@@ -111,6 +115,7 @@ export default function Portfolio() {
             <a
               href="https://github.com/baysik/unit-4-game"
               target="_blank"
+              rel="noopener noreferrer"
               class="view-button"
             >
               Github

@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import { TweenMax, Power3 } from "gsap";
 
 export default function Jumbotron(props) {
   return (
@@ -15,7 +14,7 @@ export default function Jumbotron(props) {
           <p className="lead">{props.secondP}</p>
           {/* <button className="jumbo-button">{props.button}</button> */}
           <h1>
-            <a class="fab fa-github" href="https://github.com/baysik/"></a>
+            <a className="fab fa-github" href="https://github.com/baysik/"></a>
           </h1>
         </div>
       </div>
