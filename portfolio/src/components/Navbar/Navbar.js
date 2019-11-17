@@ -8,7 +8,7 @@ export default function Navbar() {
   let navSlide3 = useRef(null);
   useEffect(() => {
     console.log(navSlide);
-    TweenMax.from([navSlide, navSlide2, navSlide3], 2, {
+    TweenMax.from([navSlide, navSlide2], 2, {
       opacity: 0,
       x: 50,
       ease: Power3.easeOut,
@@ -44,11 +44,11 @@ export default function Navbar() {
                 Portfolio
               </a>
             </li>
-            <li className="nav-item" ref={el => (navSlide3 = el)}>
+            {/* <li className="nav-item" ref={el => (navSlide3 = el)}>
               <a className="nav-link" href="/contact">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
