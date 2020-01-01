@@ -35,18 +35,32 @@ export default function Home() {
           About me
         </h2>
         <p ref={el => (pAnimation2 = el)}>
-          Graduated from University of Utah Web Development Program - October
-          26, 2019.
+          I'm Gene, a graduate from University of Utah Web Development Program,
+          based in Salt Lake City, Utah.
+          {/* October 26, 2019.*/}
         </p>
-        <p ref={el => (pAnimation = el)}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div ref={el => (pAnimation = el)}>
+          <p>
+            Ever since childhood, I've had a commanding interest in software
+            development. I've dabbled in many different languages but in 2019 I
+            decided web development was the path for me with HTML5, CSS, and
+            Javascript being the tools I rely on.
+            {/* Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum. */}
+          </p>
+          <p>
+            Though my primary focus will always be web development, that does
+            not mean it is my singular and sole interest. I'm never afraid to
+            branch out and learn something new if the task demands it. In fact,
+            I believe it to be a neccesity in terms of personal growth.
+          </p>
+        </div>
       </Wrapper>
     </div>
   );
