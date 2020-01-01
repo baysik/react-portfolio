@@ -17,6 +17,16 @@
   border-radius: 50%;
 }
 
+/* github icon */
 .fa-github {
   color: inherit;
+}
+
+/* email icon */
+.fa-envelope {
+  font-size: 1.5rem;
+}
+
+#email {
+  font-family: "Red Hat Display", sans-serif;
 }

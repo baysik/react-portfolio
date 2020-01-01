@@ -106,8 +106,8 @@ export default function Portfolio() {
           <div>
             <h3>Crystal Collector</h3>
             <p>
-              a simple app created using MySQL as the backend server, deployed
-              on Heroku using JawsDB.
+              Simple game with four crystals that have hidden values that you
+              try and match to a randomly generated number. Created with jQuery.
             </p>
             <a href="https://baysik.github.io/unit-4-game/" class="view-button">
               View

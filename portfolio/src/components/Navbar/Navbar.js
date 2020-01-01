@@ -5,7 +5,7 @@ import "./style.css";
 export default function Navbar() {
   let navSlide = useRef(null);
   let navSlide2 = useRef(null);
-  let navSlide3 = useRef(null);
+  // let navSlide3 = useRef(null);
   useEffect(() => {
     console.log(navSlide);
     TweenMax.from([navSlide, navSlide2], 2, {

@@ -12,6 +12,7 @@ export default function Jumbotron(props) {
           <h1 className="main-header">{props.h1}</h1>
           <p className="lead">{props.firstP}</p>
           <p className="lead">{props.secondP}</p>
+          <h5 id="email">genebay@protonmail.com</h5>
           {/* <button className="jumbo-button">{props.button}</button> */}
           <h1>
             <a className="fab fa-github" href="https://github.com/baysik/"></a>
