@@ -45,20 +45,12 @@ export default function Home() {
             development. I've dabbled in many different languages but in 2019 I
             decided web development was the path for me with HTML5, CSS, and
             Javascript being the tools I rely on.
-            {/* Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum. */}
           </p>
           <p>
             Though my primary focus will always be web development, that does
             not mean it is my singular and sole interest. I'm never afraid to
             branch out and learn something new if the task demands it. In fact,
-            I believe it to be a neccesity in terms of personal growth.
+            I believe it to be a necessity in terms of personal growth.
           </p>
         </div>
       </Wrapper>
