@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.8c8a818f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.ee1bc03f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ee1bc03f.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.be108fab.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.be108fab.js.map",
+    "static/js/2.e6c157a1.chunk.js": "/react-portfolio/static/js/2.e6c157a1.chunk.js",
+    "static/js/2.e6c157a1.chunk.js.map": "/react-portfolio/static/js/2.e6c157a1.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.bf619fead40ad0048ff9d8f8ee20878a.js": "/react-portfolio/precache-manifest.bf619fead40ad0048ff9d8f8ee20878a.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.8c8a818f.chunk.css.map": "/react-portfolio/static/css/main.8c8a818f.chunk.css.map",
+    "static/media/alphabet.png": "/react-portfolio/static/media/alphabet.bb46f717.png",
+    "static/media/crystal collector.png": "/react-portfolio/static/media/crystal collector.0dbcd763.png",
+    "static/media/eattheburger.png": "/react-portfolio/static/media/eattheburger.a3344d3b.png",
+    "static/media/friendfinder.png": "/react-portfolio/static/media/friendfinder.422e496a.png",
+    "static/media/portrait.jpg": "/react-portfolio/static/media/portrait.a43441a5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be108fab.js",
+    "static/js/2.e6c157a1.chunk.js",
+    "static/css/main.8c8a818f.chunk.css",
+    "static/js/main.ee1bc03f.chunk.js"
+  ]
+}
