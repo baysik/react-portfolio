@@ -12,7 +12,7 @@ export default function Navbar() {
       opacity: 0,
       x: 50,
       ease: Power3.easeOut,
-      delay: 0.2
+      delay: 0.2,
     });
   }, []);
   return (
@@ -34,13 +34,13 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="nav navbar-nav ml-auto">
-            <li className="nav-item" ref={el => (navSlide = el)}>
+            <li className="nav-item" ref={(el) => (navSlide = el)}>
               <a className="nav-link" href="/">
                 Home
               </a>
             </li>
-            <li className="nav-item" ref={el => (navSlide2 = el)}>
-              <a className="nav-link" href="/portfolio">
+            <li className="nav-item" ref={(el) => (navSlide2 = el)}>
+              <a className="nav-link" href="#/portfolio">
                 Portfolio
               </a>
             </li>
