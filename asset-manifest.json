@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "genebay.net/static/css/main.8c8a818f.chunk.css",
-    "main.js": "genebay.net/static/js/main.11019833.chunk.js",
-    "main.js.map": "genebay.net/static/js/main.11019833.chunk.js.map",
-    "runtime-main.js": "genebay.net/static/js/runtime-main.59d8b660.js",
-    "runtime-main.js.map": "genebay.net/static/js/runtime-main.59d8b660.js.map",
-    "static/js/2.5f6175e5.chunk.js": "genebay.net/static/js/2.5f6175e5.chunk.js",
-    "static/js/2.5f6175e5.chunk.js.map": "genebay.net/static/js/2.5f6175e5.chunk.js.map",
-    "index.html": "genebay.net/index.html",
-    "precache-manifest.3cbcefec6dc6c1d68708e5548a6c2848.js": "genebay.net/precache-manifest.3cbcefec6dc6c1d68708e5548a6c2848.js",
-    "service-worker.js": "genebay.net/service-worker.js",
-    "static/css/main.8c8a818f.chunk.css.map": "genebay.net/static/css/main.8c8a818f.chunk.css.map",
-    "static/media/alphabet.png": "genebay.net/static/media/alphabet.bb46f717.png",
-    "static/media/crystal collector.png": "genebay.net/static/media/crystal collector.0dbcd763.png",
-    "static/media/eattheburger.png": "genebay.net/static/media/eattheburger.a3344d3b.png",
-    "static/media/friendfinder.png": "genebay.net/static/media/friendfinder.422e496a.png",
-    "static/media/portrait.jpg": "genebay.net/static/media/portrait.a43441a5.jpg"
+    "main.css": "baysik.github.io/static/css/main.8c8a818f.chunk.css",
+    "main.js": "baysik.github.io/static/js/main.5521f240.chunk.js",
+    "main.js.map": "baysik.github.io/static/js/main.5521f240.chunk.js.map",
+    "runtime-main.js": "baysik.github.io/static/js/runtime-main.f7194f9d.js",
+    "runtime-main.js.map": "baysik.github.io/static/js/runtime-main.f7194f9d.js.map",
+    "static/js/2.5f6175e5.chunk.js": "baysik.github.io/static/js/2.5f6175e5.chunk.js",
+    "static/js/2.5f6175e5.chunk.js.map": "baysik.github.io/static/js/2.5f6175e5.chunk.js.map",
+    "index.html": "baysik.github.io/index.html",
+    "precache-manifest.6eb80d25bcb024c9d37c938d3e71fe61.js": "baysik.github.io/precache-manifest.6eb80d25bcb024c9d37c938d3e71fe61.js",
+    "service-worker.js": "baysik.github.io/service-worker.js",
+    "static/css/main.8c8a818f.chunk.css.map": "baysik.github.io/static/css/main.8c8a818f.chunk.css.map",
+    "static/media/alphabet.png": "baysik.github.io/static/media/alphabet.bb46f717.png",
+    "static/media/crystal collector.png": "baysik.github.io/static/media/crystal collector.0dbcd763.png",
+    "static/media/eattheburger.png": "baysik.github.io/static/media/eattheburger.a3344d3b.png",
+    "static/media/friendfinder.png": "baysik.github.io/static/media/friendfinder.422e496a.png",
+    "static/media/portrait.jpg": "baysik.github.io/static/media/portrait.a43441a5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.59d8b660.js",
+    "static/js/runtime-main.f7194f9d.js",
     "static/js/2.5f6175e5.chunk.js",
     "static/css/main.8c8a818f.chunk.css",
-    "static/js/main.11019833.chunk.js"
+    "static/js/main.5521f240.chunk.js"
   ]
 }
